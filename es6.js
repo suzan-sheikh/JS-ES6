@@ -44,11 +44,13 @@
 // let number = [1, 2, 3, 4, 5, 6, 7];
 // let result = number.find((i,ci,arr) => i >= 5);
 
-// console.log(result);
+console.log(result);
 
-// let number = [1, 2, 3, 4, 5, 6, 7];
-// let result = number.filter(currentValue => currentValue > 4);
-// [5,6,7]
+let number = [1, 2, 3, 4, 5, 6, 7];
+let result = number.filter(currentValue => currentValue > 4);
+[5,6,7]
+
+const newVar = "this is new variable"
 
 
 
