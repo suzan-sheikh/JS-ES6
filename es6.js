@@ -52,33 +52,4 @@
 
 
 
-// let result = number.find(function(i, ci, arr){
-//     return i === arr[3],
-//     fun2
-// },fun2);
 
-// let value = result;
-
-// let fun2 = value => value === 4 ? "Yes": "no";
-// console.log(result)
-// // let fun2 = () => {}
-
-
-    //? resutl => 6
-
-// let number = [1, 2, 3, 4, 5, 6, 7];
-
-// let result = number.splice(5, 1, 10, 10, "toamto", true);   
-
-
-// let result2 = number.filter(i=>(i === true))
-
-// console.log(typeof(number))
-
-var numbers = [1,2,3,4,5,6,7,8,9];
-
-var result = numbers.reduce((total, currentValue, previousValue)=>{
-    return currentValue + previousValue;
-},0) 
-
-console.log(result)
