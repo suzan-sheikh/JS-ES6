@@ -50,7 +50,7 @@ console.log(spliceArray);
 
 //*------------------------------------------------------------------------------*//
 
-//! 7. array1.concat(array2, array3, ..., arrayX)   || ar
+//! 7. array1.concat(array2, array3, ..., arrayX)
 
 let firstArray = ["Mango", "Banana", "Apple", "Watermelon", "grave"];
 let secondArray = ["Orange", "papaya", "Banana"];
@@ -58,3 +58,24 @@ let thirdArray = ["keyboard", "home", "mouse"];
 let concatResult = firstArray.concat(secondArray, thirdArray);
 console.log(concatResult);
 
+//*------------------------------------------------------------------------------*//
+
+//! 8. array.push(item1, item2, ..., itemX)  
+
+let pushArray = ["Mango", "Banana", "Apple", "Watermelon", "grave"];
+let pushResult = pushArray.push("Orange", "papaya", "banana");
+console.log(pushArray);
+
+//*------------------------------------------------------------------------------*//
+
+//! 9. array.map(function(currentValue, index, arr), thisValue)
+
+let number = [1,2,3,4,5,6,7,8,9];
+let mapResult = number.map(num => 2 * num);
+console.log(mapResult);
+
+//! 10. array.reduce(function(total, currentValue, currentIndex, arr), initialValue) 
+
+let reduceNumber = [1,2,3,4,5,6,7,8,9];
+let reduceResult = reduceNumber.reduce((acc, val) => acc + val);
+console.log(reduceResult);
